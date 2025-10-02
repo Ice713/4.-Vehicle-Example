@@ -16,5 +16,10 @@ namespace _4.Vehicle_Example
         {
             InitializeComponent();
         }
+
+        private void buttonStart_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace _4.Vehicle_Example
 {
-    internal class Car
+    internal class Car : Vehicle
     {
+
+        public string Drive()
+        {
+            return "Car is driving.";
+        }
     }
 }
