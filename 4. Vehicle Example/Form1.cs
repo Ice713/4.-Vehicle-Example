@@ -19,6 +19,11 @@ namespace _4.Vehicle_Example
 
         private void buttonStart_Click(object sender, EventArgs e)
         {
+            Car myCar = new Car();
+
+            MessageBox.Show($"{myCar.Start()}\n{myCar.Drive()}");
+
+
 
         }
     }
